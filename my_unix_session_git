@@ -1,0 +1,360 @@
+Script started on 2023-04-12 15:02:51+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# sudo apt get install git
+[?2004l[1;31mE: [0mInvalid operation get[0m
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# sudo apt install git-all
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package git-all[0m
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# sudo apt install git-all[K[K[K[K
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.34.1-1ubuntu1.5).
+git set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# git version[K[K[K[K[K[K[K--version
+[?2004lgit version 2.34.1
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# git config
+[?2004lusage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# git config --list --origin[K[K[K[K[K[Kshow-r[Korigin
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# git config --global
+[?2004lusage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# git condig[K[K[Kfig --global user.name "ajoybasak"
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# git config --global user.email ajoy.nb[K[Kbasak@tigeranalytics.com
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# git config --list
+[?2004l[?1h=user.name=ajoybasak[m
+user.email=ajoy.basak@tigeranalytics.com[m
+[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# cd my_project
+[?2004lbash: cd: my_project: No such file or directory
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# mkdir[K[K[K[K[Kls
+[?2004l[0m[01;32mmy_unix_session_git[0m  [01;32mmy_unix_session_unix[0m
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# mkdir my_project
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# cd my_project
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git add README[K[K[K[K[K[K[K[K[K[Kinit
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /mnt/c/Users/ajoy.basak/TAMLEP/my_project/.git/
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git branch
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git branch main
+[?2004lfatal: Not a valid object name: 'master'.
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git branch
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git config --global init.defaultBranch main
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git branch
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git [K[K[K[Kgit brnach[K[K[K[Kamch[K[K[Knch -m.
+[?2004lerror: unknown switch `.'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git statsu[K[Kus
+[?2004lOn branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git checkout -b main
+[?2004lSwitched to a new branch 'main'
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git branch
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git status
+[?2004lOn branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git add README
+[?2004lfatal: pathspec 'README' did not match any files
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git init
+[?2004lReinitialized existing Git repository in /mnt/c/Users/ajoy.basak/TAMLEP/my_project/.git/
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git add *.c
+[?2004lfatal: pathspec '*.c' did not match any files
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# echo < [K[K[K[K[K[K[Kecho 'MY [K[Ky Project' <[K> README
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# ls
+[?2004l[0m[01;32mREADME[0m
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git statsu[K[Kus
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git add README
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git f[Kdiff
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# nano README
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 6.2                                             README                                                       [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2dMy Project[?12l[?25h[?25l[?12l[?25hM[?25l[?12l[?25hy[?25l[?12l[?25h [?25l[?12l[?25hP[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hj[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[1;67H(B[0;7m*[119G(B[m[3d[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25hu[?25l[?12l[?25hr[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25hl[?25l[28d[K[?12l[?25h[3;9Hy[?25l[?12l[?25h [?25l[?12l[?25hd[?25l[?12l[?25ho[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25hg[?25l[?12l[?25hn[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h.[?25l[?12l[?25h1[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: README                                                                                              [28;27H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;67H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[3;31H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git a[Kdiff
+[?2004l[?1h=[1mdiff --git a/README b/README[m[m
+[1mindex 56266d3..07b7782 100644[m[m
+[1m--- a/README[m[m
+[1m+++ b/README[m[m
+[36m@@ -1 +1,2 @@[m[m
+ My Project[m[m
+[32m+[m[32mcurrently doing assignment 1.1[m[m
+[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git add README
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git diff
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git commit -m "just started"
+[?2004l[main (root-commit) 8d4b502] just started
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git status
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git log
+[?2004l[?1h=[33mcommit 8d4b50247a61bfe9504222b71ae18a09b5455b21[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ajoybasak <ajoy.basak@tigeranalytics.com>[m
+Date:   Wed Apr 12 15:27:25 2023 +0530[m
+[m
+    just started[m
+[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git remote
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git remote -v
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# exit
+[?2004lexit
+
+Script done on 2023-04-12 15:36:37+05:30 [COMMAND_EXIT_CODE="0"]
+
+
+
+Script started on 2023-04-13 12:17:52+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEProot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP# cd my_project
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# echo 'My Project' > README
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# ls
+[?2004l[0m[01;32mREADME[0m
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git add README
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git statsu[K[Kus
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git commit -m "First C[Kcommit"
+[?2004l[main (root-commit) ad5a309] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git status
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git remote add origin git@github.com:ajoybasak/mle-training.git[K[A]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git remote add origin git@github.com:ajoybasak/mle-training.git[C[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.gitm.gity.git_.gitp.gitr.gito.gitj.gite.gitc.gitt.git
+[?2004l[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git remote
+[?2004lorigin
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git remote -v
+[?2004lorigin	git@github.com:ajoybasak/my_project.git (fetch)
+origin	git@github.com:ajoybasak/my_project.git (push)
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git fetch origin
+[?2004lERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git push origin main
+[?2004lERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git init
+[?2004lReinitialized existing Git repository in /mnt/c/Users/ajoy.basak/TAMLEP/my_project/.git/
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git push origin main
+[?2004lERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git push -u origin main
+[?2004lERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git remote
+[?2004lorigin
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git remote -v
+[?2004lorigin	git@github.com:ajoybasak/my_project.git (fetch)
+origin	git@github.com:ajoybasak/my_project.git (push)
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git push orig[K[K[K[K-u origin main.[K
+[?2004lEnumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 225 bytes | 3.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:ajoybasak/my_project.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git tag
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git brah[Kch[K[Knch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# git push origin --delete master
+[?2004lerror: unable to delete 'master': remote ref does not exist
+[31merror: failed to push some refs to 'github.com:ajoybasak/my_project.git'
+[m[?2004h]0;root@TIGER02065: /mnt/c/Users/ajoy.basak/TAMLEP/my_projectroot@TIGER02065:/mnt/c/Users/ajoy.basak/TAMLEP/my_project# exit
+[?2004lexit
+
+Script done on 2023-04-13 12:32:40+05:30 [COMMAND_EXIT_CODE="1"]
